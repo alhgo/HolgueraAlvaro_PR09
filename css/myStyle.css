@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+            box-sizing: border-box;
+        }
+
+body {
+    margin: 15px 5px 20px 5px;
+}
+        .content {
+            overflow: auto;
+            background-color: #4FE5CC;
+            border: solid black 1px;
+        }
+        
+        
+
+        
+        .item {
+            margin: 10px;
+        }
+        
+        .item img {
+            width: 100%;
+            
+        }
+        
+        .img_item {
+            background-color: white;
+            padding: 15px;
+        }
+        
+        
+        .txt_item {
+            font-size: 0.8em;
+            margin: 5px 0px 5px 10px;
+        }
+    
