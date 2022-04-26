@@ -7,6 +7,7 @@
 
 <body>
     <h1>Hola <?php echo $_POST['nombre'] . " " . $_POST['apellido'] ?></h1>
+    
     <a href="contact.php">Volver</a>
     <pre>
     
