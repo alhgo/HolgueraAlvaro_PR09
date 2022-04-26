@@ -30,7 +30,7 @@
 								
 							</li>
                             
-                            <li><a href="contact.php"><div>Contactar</div><span>¡Comenzemos!</span></a>
+                            <li><a href="contact.php"><div>Contactar</div><span>Escríbeme algo</span></a>
 								
 							</li>
                             
