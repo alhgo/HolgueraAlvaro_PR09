@@ -21,7 +21,7 @@
 
 	<!-- Document Title
 	============================================= -->
-	<title>Contact - Layout 2 | Canvas</title>
+	<title>Contacta conmigo</title>
 
 </head>
 
@@ -62,13 +62,16 @@
 
 							<div class="contact-form-result"></div>
 
-							<form class="nobottommargin" id="template-contactform" name="template-contactform" action="include/sendemail.php" method="post" novalidate="novalidate">
+							<form class="nobottommargin" id="myForm" name="template-contactform" action="form-data.php" method="post" novalidate="novalidate">
 
 								<div class="form-process"></div>
 
 								<div class="col_one_third">
 									<label for="template-contactform-name">Name <small>*</small></label>
 									<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control ">
+                                    <div class="alert alert-danger d-none" role="alert" >
+  Escribe tu nombre
+</div>
 								</div>
 
 								<div class="col_one_third">
@@ -76,10 +79,7 @@
 									<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control">
 								</div>
 
-								<div class="col_one_third col_last">
-									<label for="template-contactform-phone">Phone</label>
-									<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control">
-								</div>
+
 
 								<div class="clear"></div>
 
@@ -197,9 +197,31 @@
     <script>
     
     function validateForm()
-        {
-            console.log("Validando");
+    {
+        
+        let todoBien = true;
+        
+        var inputName = document.getElementById("template-contactform-name");
+        
+        if(inputName.value.trim() === "")
+            {
+                inputName.classList.add("error");
+                todoBien = false;
+            }
+        else{
+            inputName.classList.remove("error");
         }
+        
+        
+        
+        console.log("Validando");
+        
+        
+        if(todoBien)
+            {
+                document.getElementById("myForm").submit();
+            }
+    }
     
     
     </script>
