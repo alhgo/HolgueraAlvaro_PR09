@@ -109,6 +109,25 @@ $current = "portfolio";
 								<span><a href="#">Media</a>, <a href="#">Icons</a></span>
 							</div>
 						</article>
+                        
+                        
+                        
+                        <!--Video-->
+                        <article class="portfolio-item pf-graphics pf-uielements" style="position: absolute; left: 476px; top: 0px;">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses">
+								</a>
+								<div class="portfolio-overlay">
+									<a href="video_embed.php" class="left-icon" data-lightbox="iframe"><i class="icon-line-video"></i></a>
+									<a href="portfolio-single-video.html" class="right-icon"><i class="icon-line-ellipsis"></i></a>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
+							</div>
+						</article>
 
                         
 						
@@ -366,5 +385,30 @@ $current = "portfolio";
 	============================================= -->
 	<script src="js/functions.js"></script>
 
+    
+    
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    
 </body>
 </html>

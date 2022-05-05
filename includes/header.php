@@ -26,7 +26,15 @@
 								
 							</li>
                             
-                            <li id="menu_portfolio" ><a href="portfolio.php"><div>Portfolio</div><span>¡Comenzemos!</span></a>
+                            <li id="menu_portfolio" <?php
+                                
+                                if(strcmp($current, "portfolio") == 0)
+                                {
+                                    echo 'class="current"';
+                                }
+                                
+                                
+                                ?>><a href="portfolio.php"><div>Portfolio</div><span><?php echo $current; ?></span></a>
 								
 							</li>
                             
