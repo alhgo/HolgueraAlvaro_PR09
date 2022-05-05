@@ -26,11 +26,11 @@
 								
 							</li>
                             
-                            <li id="menu_portfolio"><a href="portfolio.php"><div>Portfolio</div><span>¡Comenzemos!</span></a>
+                            <li id="menu_portfolio" ><a href="portfolio.php"><div>Portfolio</div><span>¡Comenzemos!</span></a>
 								
 							</li>
                             
-                            <li class="current"><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
+                            <li ></li><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
 								
 							</li>
                             
