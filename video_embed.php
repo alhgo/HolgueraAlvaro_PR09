@@ -19,10 +19,16 @@
 
 <body>
     
-    <video controls>
+<video controls>
   <source src="media/filo.mp4" type="video/mp4">
   <source src="media/filo.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
 </body>
 </html>
+
+
+
+
+
+

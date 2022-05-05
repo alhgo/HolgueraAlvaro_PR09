@@ -22,7 +22,15 @@
 								
 							</li>
                             
-                            <li id="menu_about"><a href="about_me.php"><div>Sobre mí</div><span>¡Comenzemos!</span></a>
+                            <li id="menu_about" <?php
+                                
+                                if(strcmp($current, "about-me") == 0)
+                                {
+                                    echo 'class="current"';
+                                }
+                                
+                                
+                                ?>><a href="about_me.php"><div>Sobre mí</div><span>¡Comenzemos!</span></a>
 								
 							</li>
                             
@@ -38,7 +46,7 @@
 								
 							</li>
                             
-                            <li ></li><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
+                            <li ><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
 								
 							</li>
                             

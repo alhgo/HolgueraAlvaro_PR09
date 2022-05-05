@@ -26,7 +26,7 @@ $current = "portfolio";
 
 	<!-- Document Title
 	============================================= -->
-	<title>Portfolio - 4 Columns | Canvas</title>
+	<title>Portfolio</title>
 
 </head>
 
