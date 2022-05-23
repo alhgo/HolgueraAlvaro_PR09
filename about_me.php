@@ -1,6 +1,7 @@
 <?php
 
-$current = "about-me";
+
+define('CURRENT_PAGE', 'about-me');
 
 
 ?>
@@ -20,9 +21,20 @@ $current = "about-me";
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/myStyle.css" type="text/css" />
+    
+    
+	
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
 	<!-- Document Title
@@ -67,7 +79,7 @@ $current = "about-me";
 
 						<div class="col-lg-6">
 
-							<h3>Objective</h3>
+							<h3>Mis objetivos</h3>
 
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa repellendus adipisci laborum placeat delectus labore cupiditate deserunt minus numquam consequatur esse, hic at earum illo animi eaque et, dolorem quo qui eos? Quam rerum possimus maxime veniam aut ratione eveniet aliquid cumque aspernatur ipsum libero quaerat, nam. Ad, sunt, error!</p>
 

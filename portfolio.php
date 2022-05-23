@@ -1,6 +1,7 @@
 <?php
 
-$current = "portfolio";
+
+define('CURRENT_PAGE', 'portfolio');
 
 
 ?>

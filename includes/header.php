@@ -9,7 +9,14 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.php" class="standard-logo" data-dark-logo="images/logo-dark.png">
+                        
+                            
+                            Mi <span>Página</span>
+                        
+                        
+                        
+                        </a>
 						<a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
@@ -23,8 +30,13 @@
 							</li>
                             
                             <li id="menu_about" <?php
-                                
+                                /*
                                 if(strcmp($current, "about-me") == 0)
+                                {
+                                    echo 'class="current"';
+                                }
+                                */
+                                if(CURRENT_PAGE == 'about-me')
                                 {
                                     echo 'class="current"';
                                 }
@@ -36,17 +48,23 @@
                             
                             <li id="menu_portfolio" <?php
                                 
-                                if(strcmp($current, "portfolio") == 0)
+                                if(CURRENT_PAGE == 'portfolio')
                                 {
                                     echo 'class="current"';
                                 }
                                 
-                                
-                                ?>><a href="portfolio.php"><div>Portfolio</div><span><?php echo $current; ?></span></a>
+                                ?>><a href="portfolio.php"><div>Portfolio</div><span>Mis trabajos</span></a>
 								
 							</li>
                             
-                            <li ><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
+                            <li <?php
+                                
+                                if(CURRENT_PAGE == 'contact')
+                                {
+                                    echo 'class="current"';
+                                }
+                                
+                                ?>><a href="contact.php" ><div>Contactar</div><span>Escríbeme algo</span></a>
 								
 							</li>
                             

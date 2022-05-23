@@ -1,3 +1,12 @@
+<?php
+
+
+define('CURRENT_PAGE', 'inicio');
+
+
+?>
+
+
 <!doctype html>
 <html>
 <head>

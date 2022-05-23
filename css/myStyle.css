@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: Mistitulos;
+    src: url("fonts/rubikglitch-regular-webfont.woff");
+}
+
+
+
+
+
+
+
+#logo a {
+    font-family: 'Mistitulos';
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+
+#logo span {
+    color: red;
+}
+
+h1, h2, h3 {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    font-size: 3em;
+}
+
+p {
+    line-height: 1.8em !important;
+}
+
