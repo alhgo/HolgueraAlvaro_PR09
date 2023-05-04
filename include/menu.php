@@ -3,7 +3,7 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li class="current"><a href="index.php">    <div>Inicio</div></a>
+							<li class="current"><a href="index.php">    <div>Home</div></a>
 								
 							</li>
                             <li class="current"><a href="index.php">    <div>Sobre mí</div></a>
