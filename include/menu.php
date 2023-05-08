@@ -1,20 +1,51 @@
+
+
+
 <!-- Primary Navigation
 					============================================= -->
 					<nav id="primary-menu">
 
 						<ul>
-							<li class="current"><a href="index.php">    <div>Home</div></a>
+							<li 
+                                
+                                <?php
+                                
+                                if($current == 'home')
+                                {
+                                    echo "class=\"current\"";
+                                }
+                                
+                                
+                                ?>
+                                
+                                
+                                
+                                
+                                ><a href="index.php">    <div>Home</div></a>
 								
 							</li>
-                            <li class="current"><a href="index.php">    <div>Sobre mí</div></a>
+                            <li 
+                                
+                                <?php
+                                
+                                if($current == 'about-me')
+                                {
+                                    echo "class=\"current\"";
+                                }
+                                
+                                
+                                ?>
+                                
+                                
+                                ><a href="index.php">    <div>Sobre mí</div></a>
 								
 							</li>
                             
-                            <li class="current"><a href="index.php">    <div>Portfolio</div></a>
+                            <li <?= ($current == 'porfolio') ? 'class=="current"' : "" ?>><a href="index.php">    <div>Portfolio</div></a>
 								
 							</li>
                             
-                            <li class="current"><a href="index.php">    <div>Contacto</div></a>
+                            <li <?= ($current == 'contacto') ? 'class=="current"' : "" ?>><a href="index.php">    <div>Contacto</div></a>
 								
 							</li>
 							

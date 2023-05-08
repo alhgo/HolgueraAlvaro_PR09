@@ -1,3 +1,9 @@
+<?php
+
+$current = "porfolio";
+
+
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
