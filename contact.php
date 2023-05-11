@@ -3,6 +3,8 @@
 
 $current = "contact";
 
+$lang = $_GET['lang'];
+
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
@@ -95,13 +97,33 @@ $current = "contact";
 					============================================= -->
 					<div class="postcontent nobottommargin">
 
-						<h3>Contacta conmigo</h3>
+						<h3>
+                        <?php
+                            
+                            if($lang == "en")
+                            {
+                                echo "Contact with me";
+                                
+                            }
+                            else if($lang == "de")
+                            {
+                                echo "Achtung";
+                                
+                            }
+                            else
+                            {
+                                echo "Contacta conmigo";
+                            }
+                            
+                            ?>
+                            
+                        </h3>
 
 						<div class="contact-widget">
 
 							<div class="contact-form-result"></div>
 
-							<form class="nobottommargin" action="send.php" method="post" id="myForm">
+<form id="myForm" class="nobottommargin" action="send.php" method="post" >
 
 								<div class="form-process"></div>
 
