@@ -37,15 +37,15 @@
                                 ?>
                                 
                                 
-                                ><a href="index.php">    <div>Sobre mí</div></a>
+                                ><a href="about-me.php">    <div>Sobre mí</div></a>
 								
 							</li>
                             
-                            <li <?= ($current == 'porfolio') ? 'class=="current"' : "" ?>><a href="index.php">    <div>Portfolio</div></a>
+                            <li <?= ($current == 'porfolio') ? 'class=="current"' : "" ?>><a href="portfolio.php">    <div>Portfolio</div></a>
 								
 							</li>
                             
-                            <li <?= ($current == 'contacto') ? 'class=="current"' : "" ?>><a href="index.php">    <div>Contacto</div></a>
+                            <li <?= ($current == 'contact') ? 'class=="current"' : "" ?>><a href="contact.php">    <div>Contacto</div></a>
 								
 							</li>
 							
